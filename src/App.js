@@ -6,6 +6,7 @@ import Home from './views/Home';
 import ArticlePage from './views/ArticlePage';
 import Articlespage from './views/Articlespage';
 import Forexpage from './views/Forexpage';
+import CryptoExchangepage from './views/CryptoExchangepage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <Route path="/ArticlePage" element={<ArticlePage />}></Route>
               <Route path="/Articlespage" element={<Articlespage />}></Route>
               <Route path="/Forexpage" element={<Forexpage />}></Route>
+              <Route path="/CryptoExchangepage" element={<CryptoExchangepage />}></Route>
             
             </Routes>
         </Router>    

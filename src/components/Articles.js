@@ -93,6 +93,7 @@ return(<div>
             <div class="card w-75 mb-3">
                 <div class="card-body">
                 <h5 class="card-title">{item.title}</h5>
+                <Link to="/ArticlePage" state={{ id: item.id }} class="btn btn-primary">{item.id}</Link>
                              
             </div>
             </div>
