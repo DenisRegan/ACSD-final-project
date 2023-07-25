@@ -1,6 +1,23 @@
+/*
+Component:Aricles.js
+Student: Denis O Regan
+Course : HDip in Web development
+Module: Advanced client side development
+
+component description:
+This component will display top crypto news articles, a button can take user to the actual
+article
+
+status: working
+*/
+
+
+
+
 import { useLocation } from 'react-router-dom';
 import { useState,useEffect } from "react"
 import axios from 'axios'
+import Cryptoimage from '../assets/crypto-image.jpeg'
 
 
 function Cryptonews(){
@@ -47,7 +64,11 @@ function Cryptonews(){
 
 
     return(
-        <div className="container">Cryptonews
+        <div className="container">
+
+              <div className="row">
+                <img src={Cryptoimage} class="img-fluid" alt="..."/>
+              </div>
 
 
                 {articles.map((item,index) =>(

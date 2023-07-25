@@ -1,8 +1,11 @@
-
+import Cryptonews from "../components/Cryptonews"
 
 
 function Cryptonewspage(){
-    return(<div>Cryptonews page</div>)
+    return(
+        <div className = "container">
+            <Cryptonews />
+        </div>)
 }
 
 export default Cryptonewspage

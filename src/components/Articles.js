@@ -84,7 +84,7 @@ return(<div>
         <div className = "container">
 
         <div className="row">
-        <img src={newsImage} class="img-fluid" alt="..."/>
+          <img src={newsImage} class="img-fluid" alt="..."/>
         </div>
         
             {articleTitles.map((item,index) =>(
@@ -93,7 +93,7 @@ return(<div>
             <div class="card w-75 mb-3">
                 <div class="card-body">
                 <h5 class="card-title">{item.title}</h5>
-                <Link to="/ArticlePage" state={{ id: item.id }} class="btn btn-primary">{item.id}</Link>
+                <Link to="" state={{ id: item.id }} class="btn btn-primary">View article</Link>
                              
             </div>
             </div>
